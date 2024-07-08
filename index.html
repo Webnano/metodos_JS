@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./asset/css/stylo.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To Do List</h1>
+        <hr/>
+        <input type="text" id="nuevo" placeholder=" Ingrese Nueva Tarea">
+        <button id="agregar">Agregar</button>
+        <hr />
+        <div class="container-doble">
+            <div class="resumen">
+                
+                <p><strong>Totales:</strong> <span id="total">0</span></p>
+                <p><strong>Realizadas:</strong> <span id="Realizadas">0</span></p>
+            </div>
+            <div class="detalles">
+                <table id="lista"></table>    
+            </div>
+        </div>
+    </div>
+    <script src="./asset/js/script.js"></script>
+</body>
+</html>
